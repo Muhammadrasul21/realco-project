@@ -1,0 +1,58 @@
+.card {
+    margin-top: 234px;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__image {
+        width: 600px;
+
+        max-width: 100%;
+    }
+
+    &__input {
+        margin-top: 20px;
+        display: flex;
+        gap: 25px;
+    }
+
+    &__input button {
+        @include btn();
+        background-color: #fff;
+        color: #000;
+       background-color: inherit;
+
+        &:hover {
+       background-color: #CF6F49;
+       color: #fff;
+    
+        }
+    }
+
+    &__information {
+        display: flex;
+        margin-top: 37px;
+        gap: 25px;
+    }
+    &__desc{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    &__desc img{
+        width: 48px;
+        height: 48px;
+    }
+    &__desc span{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    &__desc p{
+        font-weight: 400;
+        color: #65665C;
+    }
+}

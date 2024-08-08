@@ -1,0 +1,52 @@
+.testimonial {
+    text-align: center;
+    margin:auto;
+   h2{
+    padding-top: 160px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 26px;
+   }
+   &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    margin-top: 80px;
+   }
+    &__icons {
+        display: flex;
+        color: #CF6F49;
+        margin-bottom: 28px;
+    }
+
+    &__card {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 100%;
+        text-align: left;
+    }
+
+    &__card p {
+        width: 340px;
+        max-width: 100%;
+        line-height: 27px;
+        margin-bottom: 28px;
+    }
+    &__image image{
+        width:  48px;
+        height: 48px;
+    }
+    &__image{
+        display: flex; 
+        gap: 10px;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:30px;
+    }
+
+}

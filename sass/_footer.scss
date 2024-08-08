@@ -1,0 +1,84 @@
+.footer {
+    #footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    margin-top: 100px;
+    padding-bottom: 20px;
+
+    &__logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    &__logo p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__items {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__link h3 {
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    &__link ul li {
+        margin-bottom: 10px;
+    }
+
+    &__link ul li a {
+        margin-bottom: 15px;
+        font-size: 1.2em;
+        color: #333;
+    }
+
+    &__link ul li a:hover {
+        color: #333;
+    }
+
+    &__subscribe {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    &__subscribe p {
+        color: #666;
+        margin-bottom: 15px;
+    }
+
+    &__button input {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    &__button button {
+        @include btn()
+    }
+
+    &__subscribe a {
+        color: #333;
+    }
+
+    &__subscribe a:hover {
+        color: #333;
+        border-color: #333;
+    }
+
+}
